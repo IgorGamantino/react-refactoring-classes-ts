@@ -19,6 +19,7 @@ interface IFood {
   handleDelete: (id: number) => void;
 }
 
+
 export default function Food({food ,available, handleEditFood,handleDelete}: IFood){
   const [isAvailable,setIsAvailable] = useState(available)
 
