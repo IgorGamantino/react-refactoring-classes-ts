@@ -14,7 +14,7 @@ import { Container } from './styles';
 
 interface IInput {
   name: string;
-  icon: ComponentType<IconBaseProps>
+  icon?: ComponentType<IconBaseProps>
 }
 
 const Input = ({ name, icon: Icon, ...rest }: IInput) => {
